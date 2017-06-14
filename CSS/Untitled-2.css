@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(/img/paissatge06-nit-b02.jpg);
+}
+
+
+div.capsalera img{
+    display: block;
+    margin: 0px auto;
+}
+
+div.titol {
+    width: 1010px;
+    margin: 0px auto;
+    border-width: 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 20px;
+    background-color: white;
+    color: mediumpurple;
+}
+
+div.titol li{
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.titol li:hover {
+    background: #E0E0E0;
+    
+}
+
+div.titol02 {
+    width: 870px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    border-top: 1px solid rebeccapurple;
+    border-bottom: 1px solid rebeccapurple; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 70px;
+}
+
+ul.base{
+    margin: 0px auto;
+    width: 900px;
+    background: darkgrey;
+    color: mediumpurple;
+    border-top: 30px solid darkgrey;
+    border-bottom: 30px solid darkgrey; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+ul.pagines li{
+    display:inline;
+    margin-left: 60px; 
+    
+}
+
+#animacioimg {
+    display: relative;
+    opacity: 0.5;
+    border-radius: 30px;
+    
+}
+#animacioimg:hover {
+    transition: 0.2s all;
+    transition-timing-function: linear;
+    opacity:1;
+}
+ul.pagines02 li{
+    display: inline;
+    margin-left: 20px; 
+}
+
+ul.pagines02 a{
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+div.coses {
+    margin: 0px auto;
+    width: 940px;
+    background-color: rgba(255,255,255,0.6);
+    color: mediumpurple;
+    border-top: 30px solid rgba(255,255,255,0);
+    border-bottom: 30px solid rgba(255,255,255,0); 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+div.coses h2 {
+    background: black;
+}
+
+div.text {
+    width: 700px;
+    background-color: #E0E0E0;
+    margin: 0 auto;
+    border: 40px solid #E0E0E0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.pou {
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+			background-color: white;
+			color: black;
+			text-align: center;
+		}
+		a:link, a:visited {
+			color: #000;
+		}
+		a:active, a:hover {
+			color: #666;
+		}
+		p.header {
+			font-size: small;
+		}
+		p.header span {
+			font-weight: bold;
+		}
+		p.footer {
+			font-size: x-small;
+		}
+		div.content {
+			margin: auto;
+			width: 960px;
+		}
+		div.broken,
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 193px;
+		}
+		div.broken a,
+		div.missing a {
+			height: 63px;
+			position: relative;
+			top: -31px;
+		}
+		div.broken img,
+		div.missing img {
+			border-width: 0px;
+		}
+		div.broken {
+			display: none;
+		}
+		div#unityPlayer {
+			cursor: default;
+			height: 600px;
+			width: 960px;
+		}
